@@ -51,13 +51,13 @@ if __name__ == "__main__":
 
     axs1.plot(linear_times)
     axs1.set_title("Linear Search")
-    axs1.set_xlabel("Execution Time (s)")
-    axs1.set_ylabel("Frequency")
+    axs1.set_xlabel("Frequency")
+    axs1.set_ylabel("Execution Time (s)")
 
     axs2.plot(binary_times)
     axs2.set_title("Binary Search")
-    axs2.set_xlabel("Execution Time (s)")
-    axs2.set_ylabel("Frequency")
+    axs2.set_xlabel("Frequency")
+    axs2.set_ylabel("Execution Time (s)")
 
     plt.show()
 
