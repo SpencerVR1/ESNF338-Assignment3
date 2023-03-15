@@ -60,12 +60,3 @@ if __name__ == "__main__":
     axs2.set_ylabel("Execution Time (s)")
 
     plt.show()
-
-
-
-
-
-
-
-
-
